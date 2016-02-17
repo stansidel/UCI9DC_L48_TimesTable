@@ -4,6 +4,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -19,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Times Tables" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="sie-rA-xUU">
-                                <rect key="frame" x="192" y="279" width="217" height="42"/>
+                                <rect key="frame" x="192" y="160" width="217" height="42"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -31,7 +32,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Complete iOS 9 Developer Course Lecture 48" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.59999999999999998" translatesAutoresizingMaskIntoConstraints="NO" id="zFd-bt-GQ8">
-                                <rect key="frame" x="152" y="329" width="296" height="41"/>
+                                <rect key="frame" x="152" y="210" width="296" height="41"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -45,7 +46,7 @@
                             <constraint firstItem="sie-rA-xUU" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="20" id="9as-RF-B8S"/>
                             <constraint firstItem="ohK-3t-Ow4" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="DQ5-mJ-SkM"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="ohK-3t-Ow4" secondAttribute="bottom" constant="20" id="GKY-db-UMk"/>
-                            <constraint firstItem="sie-rA-xUU" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="JVJ-LZ-lqn"/>
+                            <constraint firstItem="sie-rA-xUU" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" multiplier="3/5" constant="1" id="JVJ-LZ-lqn"/>
                             <constraint firstItem="zFd-bt-GQ8" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="PdF-qx-adb"/>
                             <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="sie-rA-xUU" secondAttribute="trailing" constant="20" id="bO5-PS-1yc"/>
                             <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="ohK-3t-Ow4" secondAttribute="trailing" constant="20" id="cYQ-A1-cGu"/>
