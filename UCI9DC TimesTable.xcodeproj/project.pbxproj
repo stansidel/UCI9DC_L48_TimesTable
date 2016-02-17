@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F62482E51C74653200219240 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62482E41C74653200219240 /* AppDelegate.swift */; };
+		F62482E71C74653200219240 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62482E61C74653200219240 /* ViewController.swift */; };
+		F62482EA1C74653200219240 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F62482E81C74653200219240 /* Main.storyboard */; };
+		F62482EC1C74653200219240 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F62482EB1C74653200219240 /* Assets.xcassets */; };
+		F62482EF1C74653200219240 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F62482ED1C74653200219240 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F62482E11C74653200219240 /* UCI9DC TimesTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UCI9DC TimesTable.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F62482E41C74653200219240 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F62482E61C74653200219240 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F62482E91C74653200219240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F62482EB1C74653200219240 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F62482EE1C74653200219240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F62482F01C74653300219240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F62482DE1C74653200219240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F62482D81C74653200219240 = {
+			isa = PBXGroup;
+			children = (
+				F62482E31C74653200219240 /* UCI9DC TimesTable */,
+				F62482E21C74653200219240 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F62482E21C74653200219240 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F62482E11C74653200219240 /* UCI9DC TimesTable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F62482E31C74653200219240 /* UCI9DC TimesTable */ = {
+			isa = PBXGroup;
+			children = (
+				F62482E41C74653200219240 /* AppDelegate.swift */,
+				F62482E61C74653200219240 /* ViewController.swift */,
+				F62482E81C74653200219240 /* Main.storyboard */,
+				F62482EB1C74653200219240 /* Assets.xcassets */,
+				F62482ED1C74653200219240 /* LaunchScreen.storyboard */,
+				F62482F01C74653300219240 /* Info.plist */,
+			);
+			path = "UCI9DC TimesTable";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F62482E01C74653200219240 /* UCI9DC TimesTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F62482F31C74653300219240 /* Build configuration list for PBXNativeTarget "UCI9DC TimesTable" */;
+			buildPhases = (
+				F62482DD1C74653200219240 /* Sources */,
+				F62482DE1C74653200219240 /* Frameworks */,
+				F62482DF1C74653200219240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UCI9DC TimesTable";
+			productName = "UCI9DC TimesTable";
+			productReference = F62482E11C74653200219240 /* UCI9DC TimesTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F62482D91C74653200219240 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Stanislav Sidelnikov";
+				TargetAttributes = {
+					F62482E01C74653200219240 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5C9TGFA48W;
+					};
+				};
+			};
+			buildConfigurationList = F62482DC1C74653200219240 /* Build configuration list for PBXProject "UCI9DC TimesTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F62482D81C74653200219240;
+			productRefGroup = F62482E21C74653200219240 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F62482E01C74653200219240 /* UCI9DC TimesTable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F62482DF1C74653200219240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F62482EF1C74653200219240 /* LaunchScreen.storyboard in Resources */,
+				F62482EC1C74653200219240 /* Assets.xcassets in Resources */,
+				F62482EA1C74653200219240 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F62482DD1C74653200219240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F62482E71C74653200219240 /* ViewController.swift in Sources */,
+				F62482E51C74653200219240 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F62482E81C74653200219240 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F62482E91C74653200219240 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F62482ED1C74653200219240 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F62482EE1C74653200219240 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F62482F11C74653300219240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F62482F21C74653300219240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F62482F41C74653300219240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UCI9DC TimesTable/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stansidel.UCI9DC-TimesTable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F62482F51C74653300219240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UCI9DC TimesTable/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stansidel.UCI9DC-TimesTable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F62482DC1C74653200219240 /* Build configuration list for PBXProject "UCI9DC TimesTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F62482F11C74653300219240 /* Debug */,
+				F62482F21C74653300219240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F62482F31C74653300219240 /* Build configuration list for PBXNativeTarget "UCI9DC TimesTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F62482F41C74653300219240 /* Debug */,
+				F62482F51C74653300219240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F62482D91C74653200219240 /* Project object */;
+}
